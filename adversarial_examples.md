@@ -64,6 +64,7 @@ See also:
 | Mitigating Adversarial Effects Through Randomization ([pdf](https://arxiv.org/pdf/1711.01991))| 2017 | "we use two randomization operations: random resizing, which resizes the input images to a random size, and random padding, which pads zeros around the input images in a random manner" |
 | Pixeldefend: Leveraging generative models to understand and defend against adversarial examples ([pdf](https://arxiv.org/pdf/1710.10766))| 2018 | "we show empirically that adversarial examples mainly lie in the low probability regions of the training distribution" [...] "a new approach that purifies a maliciously perturbed image by moving it back towards the distribution seen in the training data. The purified image is then run through an unmodified classifier, making our method agnostic to both the classifier and the attacking method" |
 | Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models ([pdf](https://arxiv.org/pdf/1805.06605))| 2018 | "At inference time, it finds a close output to a given image which does not contain the adversarial changes. This output is then fed to the classifier." |
+| Feature Denoising for Improving Adversarial Robustness ([pdf](https://arxiv.org/pdf/1812.03411.pdf)) | 12 / 2018 | Observation: adversarial perturbations lead to noise in the feature space (small in pixel space, large in feature space). Idea: feature denoising is performed. <br><br> No tailored attack to bypass this yet. Best network based defense technique in CAAD 2018 competition. (12/2018) |
 
 # Detection 
 
