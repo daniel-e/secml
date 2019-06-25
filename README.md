@@ -6,6 +6,18 @@
 
 # Setup a virtual environment to run the Jupyter demos
 
+You need the following Python packages:
+
+* jupyter
+* matplotlib
+* torch
+* torchvision
+* tqdm
+* numpy
+
+To install everything in a virtual environment do the following steps:
+
     virtualenv -p python3 venv
     source venv/bin/activate
-    pip3 install tensorflow keras jupyter matplotlib torch torchvision tqdm
+    pip3 install -r requirements.txt
+
